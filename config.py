@@ -35,7 +35,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "KUKU MUSIC")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "6003832175").split())
 )  # Input type must be interger
 YOUR_GROUP = getenv("YOUR_GROUP", "")
 
