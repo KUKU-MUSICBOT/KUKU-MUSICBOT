@@ -126,19 +126,19 @@ TAGMES = [ " **𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 𝐊𝐚𝐡𝐚 𝐇𝐨🥱** ",
            " **𝐀𝐚𝐨 𝐏𝐚𝐫𝐭𝐲 𝐊𝐚𝐫𝐭𝐞 𝐇𝐚𝐢𝐧😋🥳** ",
            " **𝐇𝐞𝐦𝐥𝐨𝐨🧐** ",
            " **𝐌𝐮𝐣𝐡𝐞 𝐁𝐡𝐮𝐥 𝐆𝐲𝐞 𝐊𝐲𝐚🥺** ",
-           " **𝐘𝐚𝐡𝐚 𝐀𝐚 𝐉𝐚𝐨:- [ @best_friends_chat_group ] 𝐌𝐚𝐬𝐭𝐢 𝐊𝐚𝐫𝐞𝐧𝐠𝐞 🤭🤭** ",
+           " **𝐘𝐚𝐡𝐚 𝐀𝐚 𝐉𝐚𝐨:- [ @MY_GC_LINKS ] 𝐌𝐚𝐬𝐭𝐢 𝐊𝐚𝐫𝐞𝐧𝐠𝐞 🤭🤭** ",",
            " **𝐓𝐫𝐮𝐭𝐡 𝐀𝐧𝐝 𝐃𝐚𝐫𝐞 𝐊𝐡𝐞𝐥𝐨𝐠𝐞..? 😊** ",
            " **𝐀𝐚𝐣 𝐌𝐮𝐦𝐦𝐲 𝐍𝐞 𝐃𝐚𝐭𝐚 𝐘𝐫🥺🥺** ",
-           " **𝐉𝐨𝐢𝐧 𝐊𝐚𝐫 𝐋𝐨:- [ @best_friends_chat_group ] 🤗** ",
+           " **𝐉𝐨𝐢𝐧 𝐊𝐚𝐫 𝐋𝐨:- [ @MY_GC_LINKS ] 🤗** ",
            " **𝐄𝐤 𝐃𝐢𝐥 𝐇𝐚𝐢 𝐄𝐤 𝐃𝐢𝐥 𝐇𝐢 𝐓𝐨 𝐇𝐚𝐢😗😗** ",
            " **𝐓𝐮𝐦𝐡𝐚𝐫𝐞 𝐃𝐨𝐬𝐭 𝐊𝐚𝐡𝐚 𝐆𝐲𝐞🥺** ",
-           " **𝐌𝐲 𝐂𝐮𝐭𝐞 𝐎𝐰𝐧𝐞𝐫 [ @ll_ll_ANSH_B4BY_ll_ll ]🥰** ",
+           " **𝐌𝐲 𝐂𝐮𝐭𝐞 𝐎𝐰𝐧𝐞𝐫 [ @I_LOVE_Y0U_MY_HEARTBEET ]🥰** ",
            " **𝐊𝐚𝐡𝐚 𝐊𝐡𝐨𝐲𝐞 𝐇𝐨 𝐉𝐚𝐚𝐧😜** ",
            " **𝐆𝐨𝐨𝐝 𝐍8 𝐉𝐢 𝐁𝐡𝐮𝐭 𝐑𝐚𝐭 𝐇𝐨 𝐠𝐲𝐢🥰** ",
            ]
 
-@app.on_message(filters.command(["tagall", "all", "tagmember"], prefixes=["/", "@", "#"]))
-async def mentionall(client, message):
+@app.on_message(filters.command(["tagall", "all", "tagmember", "a"], prefixes=["/", "@", "#"]))
+async def mentionall(client, messages
     chat_id = message.chat.id
     if message.chat.type == "private":
         return await message.reply("This command can be used in groups and channels!")
@@ -155,7 +155,7 @@ async def mentionall(client, message):
         return await message.reply("Only admin can use this command!")
 
     if message.reply_to_message and message.text:
-        return await message.reply("/tagall hello 👈 Try this next time for tagging..")
+        return await message.reply("/tagall hello 🌶️ Try this next time for tagging..")
     elif message.text:
         mode = "text_on_cmd"
         msg = message.text
@@ -163,9 +163,9 @@ async def mentionall(client, message):
         mode = "text_on_reply"
         msg = message.reply_to_message
         if not msg:
-            return await message.reply("/tagall hii 👈 Try this or reply any message...")
+            return await message.reply("/tagall hii 🌶️ Try this or reply any message...")
     else:
-        return await message.reply("/tagall hii 👈 Try this or reply any message...")
+        return await message.reply("/tagall hii 🌶️ Try this or reply any message...")
 
     spam_chats.append(chat_id)
     usrnum = 0
