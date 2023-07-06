@@ -23,7 +23,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🖤 𝐀𝐍𝐒𝐇 𝐁4𝐁𝐘 🖤", url=f"https://t.me/I_LOVE_YOU_MY_HEARTBEET")
+                        "🖤 𝐀𝐍𝐒𝐇 𝐁4𝐁𝐘 🖤", url=f"https://t.me/I_LOVE_Y0U_MY_HEARTBEET")
                 ]
             ]
         ),
@@ -41,7 +41,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🖤 𝐀𝐍𝐒𝐇 𝐁4𝐁𝐘 🖤", url=f"https://t.me/I_LOVE_YOU_MY_HEARTBEET")
+                        "🖤 𝐀𝐍𝐒𝐇 𝐁4𝐁𝐘 🖤", url=f"https://t.me/I_LOVE_Y0U_MY_HEARTBEET")
                 ]
             ]
         ),
